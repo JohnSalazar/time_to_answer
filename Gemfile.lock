@@ -63,6 +63,9 @@ GEM
     awesome_print (1.8.0)
     bcrypt (3.1.16)
     bcrypt (3.1.16-java)
+    bcrypt_pbkdf (1.0.1)
+    bcrypt_pbkdf (1.0.1-x64-mingw32)
+    bcrypt_pbkdf (1.0.1-x86-mingw32)
     bindex (0.8.1)
     bootsnap (1.5.1)
       msgpack (~> 1.0)
@@ -101,6 +104,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    ed25519 (1.2.4)
+    ed25519 (1.2.4-java)
     erubi (1.10.0)
     faker (2.15.1)
       i18n (>= 1.6, < 2)
@@ -318,6 +323,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  bcrypt_pbkdf (>= 1.0, < 2.0)
   bootsnap (>= 1.4.2)
   byebug
   capistrano (~> 3.10)
@@ -327,6 +333,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   cocoon
   devise
+  ed25519 (>= 1.2, < 2.0)
   faker
   jbuilder (~> 2.7)
   kaminari
