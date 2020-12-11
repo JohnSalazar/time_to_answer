@@ -2,10 +2,9 @@
  *= require bootstrap/dist/css/bootstrap
  *= require surface-fix
  *= require navbar
- *= require font-awesome/css/font-awesome
+ *= require font-awesome
  */
 
- h3.panel-title div {
+h3.panel-title div {
   display: inline;
- }
-
+}

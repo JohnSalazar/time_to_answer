@@ -35,6 +35,7 @@ gem 'faker'
 gem 'kaminari'
 gem 'kaminari-i18n'
 gem "cocoon"
+gem "font-awesome-rails"
 gem 'prawn-rails'
 
 group :development, :test do
